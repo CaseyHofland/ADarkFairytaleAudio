@@ -5,7 +5,7 @@
 			<value>Blue</value>
 		</property>
 		<property name="assetPath">
-			<value>PCHORDS2 Vrij3Spoons_Area1.wav</value>
+			<value>Music/PCHORDS2 Vrij3Spoons_Area1.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
