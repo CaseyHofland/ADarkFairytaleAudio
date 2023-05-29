@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{33b8364a-145f-43a5-818c-d46f43023622}">
 		<property name="assetPath">
-			<value>ambi_static_wind_loopPoint.wav</value>
+			<value>SFX/ambi_static_wind_loopPoint.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{59cb221f-ed80-4d48-8ab5-8b91400f01fb}">
 		<property name="assetPath">
-			<value>kalimba1.wav</value>
+			<value>Music/kalimba1.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

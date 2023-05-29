@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{c6dea697-65d9-4f11-a965-aa74143d6b8d}">
 		<property name="assetPath">
-			<value>Fire, Misc, Cigarette, Burn, Smoking, Inhale SND1453.wav</value>
+			<value>Casey Prototype/Fire, Misc, Cigarette, Burn, Smoking, Inhale SND1453.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

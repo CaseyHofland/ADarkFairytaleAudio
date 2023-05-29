@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{40961cef-3aa1-40ce-885d-082cf2796d8c}">
 		<property name="assetPath">
-			<value>ambi_static_wind_end.wav</value>
+			<value>SFX/ambi_static_wind_end.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

@@ -5,7 +5,7 @@
 			<value>ZimBridge</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{ca3440c0-3691-47ae-a51a-42ca45cb5b02}</destination>
@@ -78,6 +78,9 @@
 		<relationship name="modules">
 			<destination>{4b9480e4-fe2d-4932-b45d-9ee1ef433a13}</destination>
 		</relationship>
+		<relationship name="markers">
+			<destination>{b7fd27d4-73f2-44bf-bdfd-f474597bacc3}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{6d1d6491-1de8-4158-8012-bab6471c787c}">
 		<relationship name="effectChain">
@@ -97,12 +100,34 @@
 	</object>
 	<object class="MixerBusPanner" id="{214a8cb9-a74c-4f5f-9e0c-3f2741677d0c}" />
 	<object class="MultiSound" id="{4b9480e4-fe2d-4932-b45d-9ee1ef433a13}">
+		<property name="triggerProbabilityEnabled">
+			<value>true</value>
+		</property>
+		<property name="triggerProbability">
+			<value>51.5</value>
+		</property>
 		<property name="isAsync">
 			<value>true</value>
+		</property>
+		<property name="start">
+			<value>4</value>
 		</property>
 		<property name="length">
 			<value>1.2000000000000002</value>
 		</property>
+		<property name="volume">
+			<value>6.5</value>
+		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
+		<property name="playlistMode">
+			<value>1</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{9e454f67-64b5-4b20-8c46-dba07bad526b}</destination>
+			<destination>{50b774be-fb32-4764-81bf-672aa5deda47}</destination>
+		</relationship>
 		<relationship name="sounds">
 			<destination>{f483bd36-e845-49ba-acdf-67ecf5ca79fd}</destination>
 			<destination>{cd3c8d93-160e-4e69-bd86-77ffff78dd63}</destination>
@@ -142,13 +167,44 @@
 			<destination>{6d1d6491-1de8-4158-8012-bab6471c787c}</destination>
 		</relationship>
 	</object>
+	<object class="LoopRegion" id="{b7fd27d4-73f2-44bf-bdfd-f474597bacc3}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="length">
+			<value>6</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{6e3ef41b-6f4f-480c-a211-73ad52d96206}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{5c164f47-c47f-4cb4-a76c-4c3ec7414a9f}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{d322e219-050c-45fe-86de-30828e1acff3}">
 		<relationship name="effects">
 			<destination>{cd0682e5-0662-4fb8-8315-473c236147ce}</destination>
+			<destination>{845ae36d-01e6-4389-b947-99d4ae6b0254}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{67cc98bf-11d7-4b27-84da-a489529f9c08}" />
 	<object class="MixerBusFader" id="{04b14548-5354-4a7a-b219-6d0041ddc623}" />
+	<object class="RandomizerModulator" id="{9e454f67-64b5-4b20-8c46-dba07bad526b}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="amount">
+			<value>16.7999992</value>
+		</property>
+	</object>
+	<object class="RandomizerModulator" id="{50b774be-fb32-4764-81bf-672aa5deda47}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>7.5</value>
+		</property>
+	</object>
 	<object class="SingleSound" id="{f483bd36-e845-49ba-acdf-67ecf5ca79fd}">
 		<relationship name="audioFile">
 			<destination>{307d6cd3-e077-4be2-9d7a-d2ea7b488874}</destination>
@@ -174,6 +230,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{08700315-2d73-49b3-840a-26adbcdfba95}" />
 	<object class="MixerBusFader" id="{cd0682e5-0662-4fb8-8315-473c236147ce}" />
+	<object class="SpatialiserEffect" id="{845ae36d-01e6-4389-b947-99d4ae6b0254}">
+		<property name="maximumDistance">
+			<value>2000</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{585e35f6-a155-4904-b4fd-3ec3e92bbef4}" />
 	<object class="MixerSend" id="{cc2683fa-4c3a-48d0-bacb-abcfa9c187b6}">
 		<property name="level">

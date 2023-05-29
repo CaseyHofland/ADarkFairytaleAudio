@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{d03d7364-bbbd-4c4e-bb52-95cbe31bb60b}">
 		<property name="assetPath">
-			<value>ambi_evolving_wind_2.wav</value>
+			<value>SFX/ambi_evolving_wind_2.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

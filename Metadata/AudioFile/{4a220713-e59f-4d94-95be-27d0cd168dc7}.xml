@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{4a220713-e59f-4d94-95be-27d0cd168dc7}">
 		<property name="assetPath">
-			<value>ambi_water_droplet_hit_5.wav</value>
+			<value>SFX/ambi_water_droplet_hit_5.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

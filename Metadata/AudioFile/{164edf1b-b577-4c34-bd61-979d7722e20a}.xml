@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{164edf1b-b577-4c34-bd61-979d7722e20a}">
 		<property name="assetPath">
-			<value>ADarkFairytale_PrototypePickup.wav</value>
+			<value>Casey Prototype/ADarkFairytale_PrototypePickup.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{421e705a-f1a6-494e-9949-cdee0135e90b}">
 		<property name="assetPath">
-			<value>zoom2.wav</value>
+			<value>Music/zoom2.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

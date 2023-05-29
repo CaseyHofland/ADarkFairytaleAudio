@@ -234,7 +234,7 @@
 			<value>3</value>
 		</property>
 		<property name="length">
-			<value>21.886625000000002</value>
+			<value>21</value>
 		</property>
 		<property name="volume">
 			<value>3</value>
@@ -250,6 +250,9 @@
 		</property>
 		<relationship name="modulators">
 			<destination>{43fa9c53-3491-47d7-9e6b-1c5755236f8a}</destination>
+		</relationship>
+		<relationship name="fadeOutCurve">
+			<destination>{e5be9621-9920-41ef-9d66-e92f13dec5cf}</destination>
 		</relationship>
 		<relationship name="sound">
 			<destination>{0e9afa37-594c-4b9e-befa-6c44d934b7b8}</destination>
@@ -277,7 +280,7 @@
 			<value>3</value>
 		</property>
 		<property name="length">
-			<value>21.886625000000002</value>
+			<value>21</value>
 		</property>
 		<property name="volume">
 			<value>3</value>
@@ -290,6 +293,9 @@
 		</property>
 		<relationship name="modulators">
 			<destination>{d93a3bcb-e161-4b70-9fdd-89c298d73dc6}</destination>
+		</relationship>
+		<relationship name="fadeOutCurve">
+			<destination>{d2df8b93-95c9-42e3-81f0-b86ba24d8720}</destination>
 		</relationship>
 		<relationship name="sound">
 			<destination>{6faab40e-b295-4bde-bedc-879be8164f7e}</destination>
@@ -460,6 +466,14 @@
 			<value>7</value>
 		</property>
 	</object>
+	<object class="FadeCurve" id="{e5be9621-9920-41ef-9d66-e92f13dec5cf}">
+		<relationship name="startPoint">
+			<destination>{b6bd8f02-42d3-49a0-8cb7-e5cecd713670}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{6c39c4f1-ddab-46fb-97bb-9e7be84a8f3d}</destination>
+		</relationship>
+	</object>
 	<object class="MultiSound" id="{0e9afa37-594c-4b9e-befa-6c44d934b7b8}">
 		<relationship name="sounds">
 			<destination>{4f522fff-a427-42f3-ae61-a44af8d210b0}</destination>
@@ -484,6 +498,14 @@
 		<property name="amount">
 			<value>7</value>
 		</property>
+	</object>
+	<object class="FadeCurve" id="{d2df8b93-95c9-42e3-81f0-b86ba24d8720}">
+		<relationship name="startPoint">
+			<destination>{72ea94a7-d52e-44a3-9555-59bb0e4139f0}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{c2abf5dd-0811-4c26-981d-0d39879420e4}</destination>
+		</relationship>
 	</object>
 	<object class="MultiSound" id="{6faab40e-b295-4bde-bedc-879be8164f7e}">
 		<relationship name="sounds">
@@ -538,7 +560,7 @@
 	</object>
 	<object class="AutomationPoint" id="{e9fd971a-4ce1-4586-b5a8-a53d2ed4770d}">
 		<property name="position">
-			<value>0.5</value>
+			<value>5.3546250000000004</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -621,7 +643,7 @@
 	</object>
 	<object class="AutomationPoint" id="{7bbdabcc-8a50-4afb-8f84-3fe53cddffde}">
 		<property name="position">
-			<value>2</value>
+			<value>5.3546250000000004</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -682,6 +704,25 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{ad1f67f3-1077-4c52-a1d1-73a9edee6595}" />
+	<object class="AutomationPoint" id="{b6bd8f02-42d3-49a0-8cb7-e5cecd713670}">
+		<property name="position">
+			<value>17.113374999999998</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+		<property name="curveShape">
+			<value>0.0795221776</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{6c39c4f1-ddab-46fb-97bb-9e7be84a8f3d}">
+		<property name="position">
+			<value>24</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="SingleSound" id="{4f522fff-a427-42f3-ae61-a44af8d210b0}">
 		<relationship name="audioFile">
 			<destination>{d159ed7d-5bb4-4985-bb6b-952db4e9e8d2}</destination>
@@ -727,6 +768,25 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{c1734119-2c03-458f-86ba-e090e4c1b722}" />
+	<object class="AutomationPoint" id="{72ea94a7-d52e-44a3-9555-59bb0e4139f0}">
+		<property name="position">
+			<value>17.613374999999998</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+		<property name="curveShape">
+			<value>0.173875764</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{c2abf5dd-0811-4c26-981d-0d39879420e4}">
+		<property name="position">
+			<value>24</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="SingleSound" id="{bb4c05b3-f097-4f14-9a9f-ebb58df2b99c}">
 		<relationship name="audioFile">
 			<destination>{070fbf87-dd49-46f7-9c3f-196cec0ed030}</destination>

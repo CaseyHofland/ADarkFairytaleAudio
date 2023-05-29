@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{307d6cd3-e077-4be2-9d7a-d2ea7b488874}">
 		<property name="assetPath">
-			<value>zim_v3 _bridge2.wav</value>
+			<value>SFX/zim_v3 _bridge2.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
