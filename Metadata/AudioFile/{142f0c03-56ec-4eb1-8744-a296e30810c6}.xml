@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{142f0c03-56ec-4eb1-8744-a296e30810c6}">
+		<property name="assetPath">
+			<value>ambi_static_wind_begin.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>5.3546250000000004</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{022af033-0ade-47bd-99a1-1cae037be881}</destination>
+		</relationship>
+	</object>
+</objects>

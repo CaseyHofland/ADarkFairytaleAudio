@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{070fbf87-dd49-46f7-9c3f-196cec0ed030}">
+		<property name="assetPath">
+			<value>ambi_water_droplet_1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.0026875</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{022af033-0ade-47bd-99a1-1cae037be881}</destination>
+		</relationship>
+	</object>
+</objects>

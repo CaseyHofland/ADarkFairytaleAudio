@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{786d1eb9-9e9a-4d31-8f16-b99c44522c2e}">
+		<property name="assetPath">
+			<value>BM7 Cavern.aif</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>7.9995000000000003</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{022af033-0ade-47bd-99a1-1cae037be881}</destination>
+		</relationship>
+	</object>
+</objects>
