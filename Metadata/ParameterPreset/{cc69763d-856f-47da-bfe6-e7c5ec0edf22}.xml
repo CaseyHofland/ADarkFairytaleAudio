@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{cc69763d-856f-47da-bfe6-e7c5ec0edf22}">
+		<property name="name">
+			<value>FMODEmotion</value>
+		</property>
+		<relationship name="folder">
+			<destination>{f66d34c3-6608-40a5-a846-26ce11d93016}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{06127e7c-086b-46ce-8b4a-8fbe959776b1}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{06127e7c-086b-46ce-8b4a-8fbe959776b1}">
+		<property name="minimum">
+			<value>-10</value>
+		</property>
+		<property name="maximum">
+			<value>10</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
