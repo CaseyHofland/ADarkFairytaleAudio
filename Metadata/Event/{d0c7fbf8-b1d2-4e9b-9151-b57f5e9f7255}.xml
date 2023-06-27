@@ -175,7 +175,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{6b5022c9-1198-4318-9f60-ce15b9f98dd0}">
 		<property name="volume">
-			<value>-26.5</value>
+			<value>-35</value>
 		</property>
 		<property name="name">
 			<value>static wind</value>
@@ -214,7 +214,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{a1f1301b-1d76-43d6-a10d-fc559d06777f}">
 		<property name="volume">
-			<value>-36</value>
+			<value>-30</value>
 		</property>
 		<property name="name">
 			<value>evolving wind</value>
@@ -245,6 +245,9 @@
 		<property name="maximumTimeBetweenSounds">
 			<value>3000</value>
 		</property>
+		<property name="spawnRate">
+			<value>42</value>
+		</property>
 		<property name="pitchRandomization">
 			<value>2.5</value>
 		</property>
@@ -260,7 +263,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{0f1a82b5-8ae6-43cc-97d8-4f5b0bccb845}">
 		<property name="volume">
-			<value>-13.5</value>
+			<value>-18.5</value>
 		</property>
 		<property name="name">
 			<value>droplet hit</value>
@@ -287,6 +290,9 @@
 		</property>
 		<property name="maximumTimeBetweenSounds">
 			<value>700</value>
+		</property>
+		<property name="spawnRate">
+			<value>42</value>
 		</property>
 		<property name="pitchRandomization">
 			<value>2.5</value>
@@ -560,7 +566,7 @@
 	</object>
 	<object class="AutomationPoint" id="{e9fd971a-4ce1-4586-b5a8-a53d2ed4770d}">
 		<property name="position">
-			<value>5.3546250000000004</value>
+			<value>4</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -638,12 +644,12 @@
 			<value>0</value>
 		</property>
 		<property name="curveShape">
-			<value>-0.2547189</value>
+			<value>-0.414480507</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{7bbdabcc-8a50-4afb-8f84-3fe53cddffde}">
 		<property name="position">
-			<value>5.3546250000000004</value>
+			<value>2</value>
 		</property>
 		<property name="value">
 			<value>1</value>
